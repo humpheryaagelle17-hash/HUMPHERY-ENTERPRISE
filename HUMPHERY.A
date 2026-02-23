@@ -1,0 +1,172 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<title>Aagelle Enterprise Boutique</title>
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+<style>
+body{
+margin:0;
+font-family:Arial, Helvetica, sans-serif;
+background:#fafafa;
+color:#333;
+}
+
+header{
+background:#000;
+color:white;
+padding:15px;
+text-align:center;
+}
+
+nav{
+display:flex;
+justify-content:center;
+background:#444;
+}
+
+nav a{
+color:white;
+padding:14px 20px;
+text-decoration:none;
+}
+
+nav a:hover{
+background:#000;
+}
+
+.hero{
+background:url('https://images.unsplash.com/photo-1593032465175-481ac7f401a0') center/cover;
+height:350px;
+display:flex;
+align-items:center;
+justify-content:center;
+color:white;
+font-size:40px;
+font-weight:bold;
+}
+
+.container{
+padding:40px;
+text-align:center;
+}
+
+.products{
+display:grid;
+grid-template-columns:repeat(auto-fit,minmax(250px,1fr));
+gap:20px;
+}
+
+.card{
+background:white;
+padding:20px;
+border-radius:10px;
+box-shadow:0 4px 10px rgba(0,0,0,0.1);
+}
+
+.card img{
+width:100%;
+border-radius:10px;
+}
+
+button{
+background:black;
+color:white;
+border:none;
+padding:10px 15px;
+margin-top:10px;
+cursor:pointer;
+border-radius:5px;
+}
+
+button:hover{
+background:#555;
+}
+
+footer{
+background:#000;
+color:white;
+text-align:center;
+padding:20px;
+margin-top:40px;
+}
+</style>
+</head>
+
+<body>
+
+<header>
+<h1>Aagelle Enterprise</h1>
+<p>Men’s Style • Class • Confidence</p>
+</header>
+
+<nav>
+<a href="#home">Home</a>
+<a href="#shop">Shop</a>
+<a href="#about">About</a>
+<a href="#contact">Contact</a>
+</nav>
+
+<section class="hero" id="home">
+Premium Men's Fashion
+</section>
+
+<section class="container" id="shop">
+<h2>Our Collection</h2>
+
+<div class="products">
+
+<div class="card">
+<img src="https://images.unsplash.com/photo-1617137968427-85924c800a22">
+<h3>Classic Caftan</h3>
+<p>Traditional stylish caftan for modern men.</p>
+<button>Order via Mobile Money</button>
+</div>
+
+<div class="card">
+<img src="https://images.unsplash.com/photo-1592878849122-5b3f6c1b2a1d">
+<h3>Designer Senator Wear</h3>
+<p>Elegant outfit perfect for occasions.</p>
+<button>Order via Mobile Money</button>
+</div>
+
+<div class="card">
+<img src="https://images.unsplash.com/photo-1618354691373-d851c5c3a990">
+<h3>Men's Casual Outfit</h3>
+<p>Comfortable and stylish everyday wear.</p>
+<button>Order via Mobile Money</button>
+</div>
+
+<div class="card">
+<img src="https://images.unsplash.com/photo-1603252109303-2751441dd157">
+<h3>Luxury Men's Shoes</h3>
+<p>Complete your look with confidence.</p>
+<button>Order via Mobile Money</button>
+</div>
+
+</div>
+</section>
+
+<section class="container" id="about">
+<h2>About Us</h2>
+<p>
+Aagelle Enterprise is a fashion boutique in Tamale specializing in premium men's fashion.
+We provide stylish caftans, senator wear, shoes, and accessories designed for confidence,
+class, and comfort. Our goal is to help every man dress sharp and stand out with quality fashion.
+</p>
+</section>
+
+<section class="container" id="contact">
+<h2>Contact Us</h2>
+<p><strong>Phone / Mobile Money:</strong> 0545858743</p>
+<p><strong>Location:</strong> Tamale, Ghana</p>
+<p>Order by call or WhatsApp payment.</p>
+</section>
+
+<footer>
+<p>© 2026 Aagelle Enterprise | All Rights Reserved</p>
+</footer>
+
+</body>
+</html>
